@@ -19,10 +19,10 @@
     {
       "type": "cosmosDB",
       "name": "ratingsDocument",
-      "databaseName": "ohtokyo",
-      "collectionName": "bfyouc",
+      "databaseName": "outDatabase",
+      "collectionName": "MyCollection",
       "createIfNotExists": false,
-      "connectionStringSetting": "ohtokyobfyouc_DOCUMENTDB",
+      "connectionStringSetting": "cmms_DOCUMENTDB",
       "direction": "out"
     }
   ]

@@ -20,10 +20,10 @@
       "name": "documents",
       "type": "cosmosDB",
       "direction": "in",
-      "databaseName": "ohtokyo",
-      "collectionName": "bfyouc",
+      "databaseName": "outDatabase",
+      "collectionName": "MyCollection",
       "sqlQuery": "SELECT * from c where c.userId = {userId}",
-      "connectionStringSetting": "ohtokyobfyouc_DOCUMENTDB"
+      "connectionStringSetting": "cmms_DOCUMENTDB"
     }
   ]
 }
